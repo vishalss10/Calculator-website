@@ -5,6 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="calculator.css">
   <title>My Calculator</title>
+  <style>
+    body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(30, 29, 29);
+  margin: 0;
+}
+
+#Calculator{
+  border: 5px solid rgb(30, 29, 29);
+  border-radius: 5px;
+  width: 200px;
+}
+
+#display {
+  margin: 10px;
+  width: 85%;
+  height: 40px;
+  font-size: 30px;
+  text-align: right;
+}
+
+#button-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  width: 40px;
+  height: 40px;
+  margin: 3px;
+  background-color: #e0e0e0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #912020;
+  }
+  </style>
 </head>
 <body>
     <div id="Calculator">
